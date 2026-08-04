@@ -3,10 +3,14 @@
 
 
 /* 1. Count the number of products */
+<<<<<<< HEAD
+
+=======
  SELECT
  COUNT(product_id) as num_of_products
  
  FROM product;
+>>>>>>> fac6918b786081e21c186f46a4f50f5c477fd6d6
 
  
 /* 2. How many products per product_qty_type */
@@ -65,8 +69,13 @@ GROUP BY c.customer_id; -- why customer_id and not customer_last_name/customer_f
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
+</sql><sql name="MIN_MAX">/* MODULE 3 */
+/* MIN &amp;MAX */
+=======
 </sql><sql name="MIN_MAX*">/* MODULE 3 */
 /* MIN &amp; MAX */
+>>>>>>> fac6918b786081e21c186f46a4f50f5c477fd6d6
 
 
 /* 1. What is the most expensive product 
@@ -78,7 +87,10 @@ product_name, max(original_price) as most_expensive
 FROM vendor_inventory as vi
 INNER JOIN product as p
 	ON p.product_id = vi.product_id;
+<<<<<<< HEAD
+=======
 
+>>>>>>> fac6918b786081e21c186f46a4f50f5c477fd6d6
  
 
 /* 2. Prove that max is working */
