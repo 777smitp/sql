@@ -9,6 +9,7 @@
 SELECT customer_id, customer_first_name, customer_last_name, customer_postal_code
 FROM customer;
 
+
 --END QUERY
 
 
