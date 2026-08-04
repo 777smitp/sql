@@ -12,7 +12,6 @@ FROM customer;
 
 --END QUERY
 
-
 /* 2. Write a query that displays all of the columns and 10 rows from the customer table, 
 sorted by customer_last_name, then customer_first_ name. */
 --QUERY 2
