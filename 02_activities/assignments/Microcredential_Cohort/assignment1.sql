@@ -149,6 +149,7 @@ VALUES (10, 'Thomass Superfood Store', 'Fresh Focused', 'Thomas', 'Rosenthal');
 --END QUERY
 
 
+
 -- Date
 /*1. Get the customer_id, month, and year (in separate columns) of every purchase in the customer_purchases table.
 

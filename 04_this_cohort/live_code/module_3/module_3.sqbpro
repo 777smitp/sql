@@ -3,7 +3,7 @@
 
 
 /* 1. Count the number of products */
- 
+
 
  
 /* 2. How many products per product_qty_type */
@@ -32,12 +32,18 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 </sql><sql name="MIN_MAX">/* MODULE 3 */
-/* MIN &amp; MAX */
+/* MIN &amp;MAX */
 
 
 /* 1. What is the most expensive product 
 ...pay attention to how it doesn't handle ties very well
 */
+SELECT 
+product_name, max(original_price) as most_expensive
+
+FROM vendor_inventory as vi
+INNER JOIN product as p
+	ON p.product_id = vi.product_id;
  
 
 /* 2. Prove that max is working */
